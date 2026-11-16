@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones | Prime Vision Films</title>
+
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/opiniones.css">
+</head>
+
+<body class="sin-fondo">
+
+    <header>
+        <div>
+            <a href="../index.html">
+                <img id="logo" src="../Imagenes/pvfilms.png"
+                     width="80" height="80" alt="PV Films">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="menu.html">Películas</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="opiniones.html" class="activo">Opiniones</a></li>
+            </ul>
+        </nav>
+
+        <div id="botones" class="botones">
+            <a href="registro.html"><button>Registrarse</button></a>
+            <a href="iniciosesion.html"><button>Iniciar Sesión</button></a>
+        </div>
+    </header>
+
+    <main class="opiniones-pagina">
+
+        <section class="opiniones-titulo">
+            <p>PRIME VISION FILMS</p>
+            <h1>Opiniones de la <span>comunidad</span></h1>
+            <p class="subtitulo">
+                Compartí tu opinión, calificá tus películas favoritas
+                y descubrí qué piensan otros amantes del cine.
+            </p>
+        </section>
+
+        <section class="contenido-opiniones">
+
+            <div class="formulario-opinion">
+
+                <div class="formulario-superior">
+                    <div class="icono-opinion">★</div>
+                    <div>
+                        <h2>Dejá tu opinión</h2>
+                        <p>Contanos qué te pareció la película</p>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="nombreUsuario">Tu nombre</label>
+                    <input type="text" id="nombreUsuario"
+                           placeholder="Escribí tu nombre"
+                           class="input-opinion">
+                </div>
+
+                <div class="campo">
+                    <label for="pelicula">Película o serie</label>
+
+                    <select id="pelicula" class="input-opinion">
+                        <option value="">-- Seleccioná una película o serie --</option>
+
+                        <optgroup label="Películas">
+                            <option value="Spider-Man">Spider-Man</option>
+                            <option value="La La Land">La La Land</option>
+                            <option value="Interestelar">Interestelar</option>
+                            <option value="La sociedad de la nieve">La sociedad de la nieve</option>
+                            <option value="A través de mi ventana">A través de mi ventana</option>
+                            <option value="A todos los chicos de los que me enamoré">A todos los chicos de los que me enamoré</option>
+                            <option value="La calle del terror">La calle del terror</option>
+                            <option value="Titanic">Titanic</option>
+                            <option value="Avatar">Avatar</option>
+                            <option value="Avatar: El camino del agua">Avatar: El camino del agua</option>
+                            <option value="Barbie">Barbie</option>
+                            <option value="Oppenheimer">Oppenheimer</option>
+                            <option value="El origen">El origen</option>
+                            <option value="El caballero de la noche">El caballero de la noche</option>
+                            <option value="Avengers: Endgame">Avengers: Endgame</option>
+                            <option value="Avengers: Infinity War">Avengers: Infinity War</option>
+                            <option value="Deadpool">Deadpool</option>
+                            <option value="Deadpool y Wolverine">Deadpool y Wolverine</option>
+                            <option value="Joker">Joker</option>
+                            <option value="Culpa mía">Culpa mía</option>
+                            <option value="Culpa tuya">Culpa tuya</option>
+                            <option value="Culpa nuestra">Culpa nuestra</option>
+                            <option value="A dos metros de ti">A dos metros de ti</option>
+                            <option value="Bajo la misma estrella">Bajo la misma estrella</option>
+                            <option value="Diario de una pasión">Diario de una pasión</option>
+                            <option value="Orgullo y prejuicio">Orgullo y prejuicio</option>
+                            <option value="10 cosas que odio de ti">10 cosas que odio de ti</option>
+                            <option value="Superbad">Superbad</option>
+                            <option value="Son como niños">Son como niños</option>
+                            <option value="Jurassic Park">Jurassic Park</option>
+                            <option value="Jurassic World">Jurassic World</option>
+                            <option value="Harry Potter y la piedra filosofal">Harry Potter y la piedra filosofal</option>
+                            <option value="Harry Potter y las reliquias de la muerte">Harry Potter y las reliquias de la muerte</option>
+                            <option value="Los juegos del hambre">Los juegos del hambre</option>
+                            <option value="Divergente">Divergente</option>
+                            <option value="Maze Runner">Maze Runner</option>
+                            <option value="Scream">Scream</option>
+                            <option value="It">It</option>
+                            <option value="El conjuro">El conjuro</option>
+                            <option value="La monja">La monja</option>
+                            <option value="Destino final">Destino final</option>
+                            <option value="Sonríe">Sonríe</option>
+                            <option value="Five Nights at Freddy's">Five Nights at Freddy's</option>
+                        </optgroup>
+
+                        <optgroup label="Series">
+                            <option value="Emily in Paris">Emily in Paris</option>
+                            <option value="Stranger Things">Stranger Things</option>
+                            <option value="Gossip Girl">Gossip Girl</option>
+                            <option value="Outer Banks">Outer Banks</option>
+                            <option value="Envidiosa">Envidiosa</option>
+                            <option value="La casa de papel">La casa de papel</option>
+                            <option value="Merlina">Merlina</option>
+                            <option value="The Vampire Diaries">The Vampire Diaries</option>
+                            <option value="The Originals">The Originals</option>
+                            <option value="Teen Wolf">Teen Wolf</option>
+                            <option value="Euphoria">Euphoria</option>
+                            <option value="Élite">Élite</option>
+                            <option value="Cobra Kai">Cobra Kai</option>
+                            <option value="Breaking Bad">Breaking Bad</option>
+                            <option value="Better Call Saul">Better Call Saul</option>
+                            <option value="The Walking Dead">The Walking Dead</option>
+                            <option value="The Last of Us">The Last of Us</option>
+                            <option value="The Boys">The Boys</option>
+                            <option value="Invincible">Invincible</option>
+                            <option value="The Office">The Office</option>
+                            <option value="Friends">Friends</option>
+                            <option value="The Big Bang Theory">The Big Bang Theory</option>
+                            <option value="Modern Family">Modern Family</option>
+                            <option value="How I Met Your Mother">How I Met Your Mother</option>
+                            <option value="Bridgerton">Bridgerton</option>
+                            <option value="You">You</option>
+                            <option value="Dark">Dark</option>
+                            <option value="Black Mirror">Black Mirror</option>
+                            <option value="The 100">The 100</option>
+                            <option value="Prison Break">Prison Break</option>
+                            <option value="Peaky Blinders">Peaky Blinders</option>
+                            <option value="One Piece">One Piece</option>
+                            <option value="The Flash">The Flash</option>
+                            <option value="Arrow">Arrow</option>
+                            <option value="Loki">Loki</option>
+                            <option value="WandaVision">WandaVision</option>
+                            <option value="Daredevil">Daredevil</option>
+                            <option value="The Umbrella Academy">The Umbrella Academy</option>
+                            <option value="Sex Education">Sex Education</option>
+                            <option value="Ginny y Georgia">Ginny y Georgia</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="puntuacion-caja">
+                    <div class="puntuacion-titulo">¿Cuánto te gustó?</div>
+
+                    <div class="estrellas-selector" aria-label="Puntuación">
+                        <button type="button" class="estrella" data-valor="1" aria-label="1 estrella">★</button>
+                        <button type="button" class="estrella" data-valor="2" aria-label="2 estrellas">★</button>
+                        <button type="button" class="estrella" data-valor="3" aria-label="3 estrellas">★</button>
+                        <button type="button" class="estrella" data-valor="4" aria-label="4 estrellas">★</button>
+                        <button type="button" class="estrella" data-valor="5" aria-label="5 estrellas">★</button>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="comentario">Tu opinión</label>
+                    <textarea id="comentario"
+                              placeholder="Escribí qué te pareció..."
+                              class="input-opinion"
+                              rows="4"></textarea>
+                </div>
+
+                <button type="button" id="btnPublicar" class="btn-publicar">
+                    Publicar opinión
+                </button>
+            </div>
+
+            <div class="lista-titulo">
+                <h2>Últimas opiniones</h2>
+                <span>Lo que dice nuestra comunidad</span>
+            </div>
+
+            <div id="lista-opiniones">
+                <div class="tarjeta-opinion">
+                    <div class="opinion-header">
+                        <span class="opinion-usuario">Mariana</span>
+                        <span class="opinion-pelicula">Emily in Paris</span>
+                    </div>
+                    <p class="opinion-estrellas">★★★☆☆</p>
+                    <p class="opinion-texto">
+                        Muy entretenida, perfecta para ver un domingo.
+                        No es profunda pero te engancha.
+                    </p>
+                </div>
+
+                <div class="tarjeta-opinion">
+                    <div class="opinion-header">
+                        <span class="opinion-usuario">Lucas</span>
+                        <span class="opinion-pelicula">Spider-Man</span>
+                    </div>
+                    <p class="opinion-estrellas">★★★★★</p>
+                    <p class="opinion-texto">
+                        Una de las mejores películas de Marvel.
+                        El final es increíble.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/opiniones.js"></script>
+</body>
+</html>

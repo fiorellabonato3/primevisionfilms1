@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi perfil - Prime Vision Films</title>
+
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/perfil.css">
+</head>
+
+<body class="sin-fondo">
+
+    <header>
+        <div>
+            <a href="../index.html">
+                <img
+                    id="logo"
+                    src="../Imagenes/pvfilms.png"
+                    width="80"
+                    height="80"
+                    alt="PV Films"
+                >
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="menu.html">Películas</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="opiniones.html">Opiniones</a></li>
+            </ul>
+        </nav>
+
+        <div id="botones" class="botones">
+            <a href="registro.html">
+                <button>Registrarse</button>
+            </a>
+
+            <a href="iniciosesion.html">
+                <button>Iniciar Sesión</button>
+            </a>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <div class="caja">
+
+            <section id="seccionPerfil" class="seccion-perfil">
+                <h2 class="titulo-opinion">👤 Mi perfil</h2>
+
+                <h3 id="nombrePerfil" class="nombre-perfil"></h3>
+
+                <p id="emailPerfil" class="email-perfil"></p>
+            </section>
+
+            <section id="seccionFavoritas" class="seccion-perfil">
+                <h2 class="titulo-seccion">❤ Mis favoritas</h2>
+
+                <div id="favoritasPerfil" class="contenido-seccion"></div>
+            </section>
+
+            <section id="seccionVistas" class="seccion-perfil">
+                <h2 class="titulo-seccion">🎬 Películas vistas</h2>
+
+                <div id="vistasPerfil" class="contenido-seccion"></div>
+            </section>
+
+            <section id="seccionReseñas" class="seccion-perfil">
+                <h2 class="titulo-seccion">⭐ Mis reseñas</h2>
+
+                <div id="opinionesPerfil" class="contenido-seccion"></div>
+            </section>
+
+            <button
+                type="button"
+                id="btnCerrarSesion"
+                class="btn-publicar btn-cerrar-sesion"
+            >
+                Cerrar sesión
+            </button>
+
+        </div>
+    </main>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/perfil.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Menú</title>
+<link rel="stylesheet" href="../CSS/estilos.css">
+<link rel="stylesheet" href="../CSS/menu.css">
+</head>
+<body class="sin-fondo">
+<header>
+<div>
+<a href="../index.html">
+<img id="logo" src="../Imagenes/pvfilms.png" width="80" height="80" alt="PV Films">
+</a>
+</div>
+<nav>
+<ul>
+<li><a href="../index.html">Inicio</a></li>
+<li><a href="menu.html" class="activo">Películas</a></li>
+<li><a href="categorias.html">Categorías</a></li>
+<li><a href="opiniones.html">Opiniones</a></li>
+</ul>
+</nav>
+<div id="botones">
+<a href="registro.html">
+<button>Registrarse</button>
+</a>
+<a href="iniciosesion.html">
+<button>Iniciar Sesión</button>
+</a>
+</div>
+</header>
+<main>
+<section class="seccion-peliculas">
+<div class="buscador">
+<input type="text" id="busqueda" placeholder="🔎 Buscar una película...">
+</div>
+<div class="ordenar">
+<label for="orden">Ordenar por:</label>
+<select id="orden">
+<option value="normal">Orden original</option>
+<option value="mayor">Mayor puntuación</option>
+<option value="menor">Menor puntuación</option>
+<option value="nombre">Nombre A-Z</option>
+<option value="peliculas">Películas</option>
+<option value="series">Series</option>
+</select>
+<div class="recomendacion">
+<button id="btn-recomendacion">🎲 ¿Qué veo hoy?</button>
+<div id="resultado-recomendacion"></div>
+</div>
+</div>
+<div class="grid-peliculas">
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/emily in paris.webp" alt="pelicula 1">
+<h3>Emily in Paris</h3>
+<p class="info-pelicula">Serie • Drama Romántica • 2020</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/interestelar.webp" alt="pelicula 2">
+<h3>Interestelar</h3>
+<p class="info-pelicula">Ciencia Ficción • 2014</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/spider-man.webp" alt="pelicula 3">
+<h3>Spider-Man No Way Home</h3>
+<p class="info-pelicula">Marvel • 2023</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/stranger-things.webp" alt="pelicula 4">
+<h3>Stranger Things</h3>
+<p class="info-pelicula">Serie • Ciencia Ficción - Suspenso • 2016</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/la la land.webp" alt="pelicula 5">
+<h3>La La Land</h3>
+<p class="info-pelicula">Romance • 2016</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/gossip girl.webp" alt="pelicula 6">
+<h3>Gossip Girl</h3>
+<p class="info-pelicula">Serie • Drama - Romance • 2007</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/a traves de mi ventana.webp" alt="pelicula 7">
+<h3>A través de mi ventana</h3>
+<p class="info-pelicula">Romance • 2022</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/outer banks.webp" alt="pelicula 8">
+<h3>Outer Banks</h3>
+<p class="info-pelicula">Serie • Drama - Acción • 2020</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/la sociedad de la nieve.webp " alt=pelicula 9">
+<h3>La sociedad de la nieve</h3>
+<p class="info-pelicula">Drama • 2024</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/envidiosa.webp" alt="pelicula 10">
+<h3>Envidiosa</h3>
+<p class="info-pelicula">Serie • Drama - Romance • 2024</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/a todos los chicos de los que me enamore (1).webp" alt="pelicula 11">
+<h3>A todos los chicos de los que me enamoré</h3>
+<p class="info-pelicula">Romance • 2018</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/la casa de papel.webp" alt="La casa de papel">
+<div class="tarjeta-info">
+<h3>La casa de papel</h3>
+<p class="info-pelicula">Serie • Acción - Suspenso • 2017</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/la calle del terror.webp" alt="pelicula 13">
+<h3>La calle del terror</h3>
+<p class="info-pelicula">Terror • 2021</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/tsitp.webp" alt="El verano en que me enamoré">
+<div class="tarjeta-info">
+<h3>El verano en que me enamoré</h3>
+<p>Romance • 2022</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/duki.webp" alt="pelicula 15">
+<h3>Rockstar: Duki</h3>
+<p class="info-pelicula">Documentales • 2025</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula">
+<img src="../Imagenes/el stand de los besos.webp" alt="pelicula 16">
+<h3>El stand de los besos</h3>
+<p class="info-pelicula">Romance • 2016</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="comedia">
+<img src="../Imagenes/the office.webp" alt="The office">
+<h3>The office</h3>
+<p class="info-pelicula">Comedia • 2012</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="comedia">
+<img src="../Imagenes/son_como_ninos_1.webp" alt="Son como niños">
+<h3>Son como niños</h3>
+<p class="info-pelicula">Comedia • 2010</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="drama">
+<img src="../Imagenes/ginny & georgia.webp" alt="Ginny & Georgia">
+<h3>Ginny & Georgia</h3>
+<p>Drama • 2025</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="comedia">
+<img src="../Imagenes/division palermo.webp" alt="Division Palermo">
+<h3>Division Palermo</h3>
+<p>Comedia • 2025</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="comedia">
+<img src="../Imagenes/rebeldeway_1.webp" alt="Rebelde way">
+<h3>Rebelde way</h3>
+<p>Comedia • 2003</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="comedia">
+<img src="../Imagenes/friends.webp" alt="Friends">
+<h3>Friends</h3>
+<p>Comedia • 2003</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="familia">
+<img src="../Imagenes/i carly.webp" alt="iCarly">
+<h3>iCarly</h3>
+<p>Familia • 2012</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="familia">
+<img src="../Imagenes/metegol.webp" alt="Metegol">
+<h3>Metegol</h3>
+<p>Familia • 2013</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="familia">
+<img src="../Imagenes/alexa & katie.webp" alt="Alexa&Katie">
+<h3>Alexa&Katie</h3>
+<p>Familia • 2020</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+<div class="tarjeta-pelicula" data-generos="documentales">
+<img src="../Imagenes/duki.webp" alt="Rockstar Duki">
+<div class="tarjeta-info">
+<h3>Rockstar Duki</h3>
+<p class="info-pelicula">Documental • 2025</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/rapido y furiosos 5.webp" alt="Rapidos y furiosos 5">
+<div class="tarjeta-info">
+<h3>Rápidos y furiosos 5: Sin control</h3>
+<p class="info-pelicula">Acción • 2011</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/alerta roja.webp" alt="Alerta roja">
+<div class="tarjeta-info">
+<h3>Alerta roja</h3>
+<p class="info-pelicula">Acción • 2021</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/gran turismo.webp" alt="Gran Turismo">
+<div class="tarjeta-info">
+<h3>Gran Turismo</h3>
+<p class="info-pelicula">Acción • 2023</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/guerra mundial.webp" alt="Guerra Mundial Z">
+<div class="tarjeta-info">
+<h3>Guerra Mundial Z</h3>
+<p class="info-pelicula">Acción • 2013</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/el eternauta.webp" alt="El Eternauta">
+<div class="tarjeta-info">
+<h3>El Eternauta</h3>
+<p class="info-pelicula">Acción • 2025</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/el hombre gris.webp" alt="El hombre gris">
+<div class="tarjeta-info">
+<h3>El hombre gris</h3>
+<p class="info-pelicula">Acción • 2022</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/cobra kai.webp" alt="Cobra kai">
+<div class="tarjeta-info">
+<h3>Cobra kai</h3>
+<p class="info-pelicula">Acción • 2018</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/peaky blinders.webp" alt="Peaky blinders">
+<div class="tarjeta-info">
+<h3>Peaky blinders</h3>
+<p class="info-pelicula">Acción • 2022</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/SWAT.webp" alt="S.W\.A.T">
+<div class="tarjeta-info">
+<h3>S.W\.A.T</h3>
+<p class="info-pelicula">Acción • 2024</p>
+<p class="estrellas">★★☆☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/marginal.webp" alt="El marginal">
+<div class="tarjeta-info">
+<h3>El marginal</h3>
+<p class="info-pelicula">Acción • 2022</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="accion">
+<img src="../Imagenes/el chapo.webp" alt="El chapo">
+<div class="tarjeta-info">
+<h3>El chapo</h3>
+<p class="info-pelicula">Acción • 2018</p>
+<p class="estrellas">★★☆☆☆</p>
+<p class="nota">2/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/al filo del mañana.webp" alt="Al filo del mañana">
+<div class="tarjeta-info">
+<h3>Al filo del mañana</h3>
+<p class="info-pelicula">Ciencia ficción • 2014</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/bumblebee.webp" alt="Bumblebee">
+<div class="tarjeta-info">
+<h3>Bumblebee</h3>
+<p class="info-pelicula">Ciencia ficción • 2018</p>
+<p class="estrellas">★★☆☆☆</p>
+<p class="nota">2/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/chappie.webp" alt="Chappie">
+<div class="tarjeta-info">
+<h3>Chappie</h3>
+<p class="info-pelicula">Ciencia ficción • 2015</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/inteligencia artificial.webp" alt="I.A Inteligencia artificial">
+<div class="tarjeta-info">
+<h3>I.A Inteligencia artificial</h3>
+<p class="info-pelicula">Ciencia ficción • 2001</p>
+<p class="estrellas">★☆☆☆☆</p>
+<p class="nota">1/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/black mirror.webp" alt="Black Mirror">
+<div class="tarjeta-info">
+<h3>Black Mirror</h3>
+<p class="info-pelicula">Ciencia ficción • 2025</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/DARK.webp" alt="Dark">
+<div class="tarjeta-info">
+<h3>Dark</h3>
+<p class="info-pelicula">Ciencia ficción • 2020</p>
+<p class="estrellas">★★☆☆☆</p>
+<p class="nota">2/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/el problema de los 3 cuerpos.webp" alt="El problema de los 3 cuerpos">
+<div class="tarjeta-info">
+<h3>El problema de los 3 cuerpos</h3>
+<p class="info-pelicula">Ciencia ficción • 2024</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/the rain.webp" alt="The rain">
+<div class="tarjeta-info">
+<h3>The rain</h3>
+<p class="info-pelicula">Ciencia ficción • 2020</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/resident alien.webp" alt="Resident alien">
+<div class="tarjeta-info">
+<h3>Resident alien</h3>
+<p class="info-pelicula">Ciencia ficción • 2025</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/viajeros.webp" alt="Viajeros">
+<div class="tarjeta-info">
+<h3>Viajeros</h3>
+<p class="info-pelicula">Ciencia ficción • 2025</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="ciencia-ficcion">
+<img src="../Imagenes/abigail.webp" alt="Abigail">
+<div class="tarjeta-info">
+<h3>Abigail</h3>
+<p class="info-pelicula">Ciencia ficción • 2024</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="terror">
+<img src="../Imagenes/el exorcistadel papa.webp" alt="El exorcista del papa">
+<div class="tarjeta-info">
+<h3>El exorcista del papa</h3>
+<p class="info-pelicula">Terror • 2023</p>
+<p class="estrellas">★★☆☆☆</p>
+<p class="nota">2/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="terror">
+<img src="../Imagenes/la noche del demonio.webp" alt="La noche del demonio: La puerta roja">
+<div class="tarjeta-info">
+<h3>La noche del demonio: La puerta roja</h3>
+<p class="info-pelicula">Terror • 2023</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="terror">
+<img src="../Imagenes/cuando acecha la maldad.webp" alt="Cuando acecha la maldad">
+<div class="tarjeta-info">
+<h3>Cuando acecha la maldad</h3>
+<p class="info-pelicula">Terror • 2023</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="terror">
+<img src="../Imagenes/la calle del terror 2.webp" alt="La calle del terror: Parte 2">
+<div class="tarjeta-info">
+<h3>La calle del terror: Parte 2</h3>
+<p class="info-pelicula">Terror • 2021</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="terror">
+<img src="../Imagenes/la calle del terror 3.webp" alt="La calle del terror: Parte 3">
+<div class="tarjeta-info">
+<h3>La calle del terror: Parte 3</h3>
+<p class="info-pelicula">Terror • 2021</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/violetta.webp" alt="Violetta">
+<div class="tarjeta-info">
+<h3>Violetta</h3>
+<p class="info-pelicula">Disney • 2012</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/el rey leon.webp" alt="El rey León">
+<div class="tarjeta-info">
+<h3>El rey León</h3>
+<p class="info-pelicula">Disney • 1994</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/frozen.webp" alt="Frozen">
+<div class="tarjeta-info">
+<h3>Frozen</h3>
+<p class="info-pelicula">Disney • 2013</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/enredados.webp" alt="Enredados">
+<div class="tarjeta-info">
+<h3>Enredados</h3>
+<p class="info-pelicula">Disney • 2010</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/moana.webp" alt="Moana">
+<div class="tarjeta-info">
+<h3>Moana</h3>
+<p class="info-pelicula">Moana • 2016</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/moana 2.webp" alt="Moana 2">
+<div class="tarjeta-info">
+<h3>Moana 2</h3>
+<p class="info-pelicula">Moana 2• 2024</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/la sirenita.webp" alt="La sirenita">
+<div class="tarjeta-info">
+<h3>La sirenita</h3>
+<p class="info-pelicula">Disney • 1989</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/aladin.webp" alt="Aladdín">
+<div class="tarjeta-info">
+<h3>Aladdín</h3>
+<p class="info-pelicula">Disney • 1992</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/la bella y la bestia.webp" alt="La bella y la bestia">
+<div class="tarjeta-info">
+<h3>La bella y la bestia</h3>
+<p class="info-pelicula">Disney • 1991</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/mulan.webp" alt="Mulán">
+<div class="tarjeta-info">
+<h3>Mulán</h3>
+<p class="info-pelicula">Disney • 1998</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/lilo & stitch.webp" alt="Lilo & Stitch">
+<div class="tarjeta-info">
+<h3>Lilo & Stitch</h3>
+<p class="info-pelicula">Disney • 2002</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/zootopia.webp" alt="Zootopia">
+<div class="tarjeta-info">
+<h3>Zootopia</h3>
+<p class="info-pelicula">Disney • 2016</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/ratatouille.webp" alt="Ratatouille">
+<div class="tarjeta-info">
+<h3>Ratatouille</h3>
+<p class="info-pelicula">Disney • 2007</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/toy story.webp" alt="Toy Story">
+<div class="tarjeta-info">
+<h3>Toy Story</h3>
+<p class="info-pelicula">Disney • 1995</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/los increibles.webp" alt="Los increíbles">
+<div class="tarjeta-info">
+<h3>Los increíbles</h3>
+<p class="info-pelicula">Disney • 2004</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/coco.webp" alt="Coco">
+<div class="tarjeta-info">
+<h3>Coco</h3>
+<p class="info-pelicula">Disney • 2017</p>
+<p class="estrellas">★★☆☆☆</p>
+<p class="nota">2/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/up.webp" alt="Up">
+<div class="tarjeta-info">
+<h3>Up</h3>
+<p class="info-pelicula">Disney • 2014</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/wall-e.webp" alt="WALL-E">
+<div class="tarjeta-info">
+<h3>WALL-E</h3>
+<p class="info-pelicula">Disney • 2008</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/buscando a nemo.webp" alt="Buscando a Nemo">
+<div class="tarjeta-info">
+<h3>Buscando a Nemo</h3>
+<p class="info-pelicula">Disney • 2003</p>
+<p class="estrellas">★★★★☆</p>
+<p class="nota">4/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/cars.webp" alt="Cars">
+<div class="tarjeta-info">
+<h3>Cars</h3>
+<p class="info-pelicula">Disney • 2006</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/piratas del caribe.webp" alt="Piratas del caribe">
+<div class="tarjeta-info">
+<h3>Piratas del caribe</h3>
+<p class="info-pelicula">Disney • 2003</p>
+<p class="estrellas">★★★☆☆</p>
+<p class="nota">3/5</p>
+</div>
+</div>
+<div class="tarjeta-pelicula" data-generos="disney">
+<img src="../Imagenes/dalmatas.webp" alt="101 dalmatas">
+<div class="tarjeta-info">
+<h3>101 dálmatas</h3>
+<p class="info-pelicula">Disney • 1961</p>
+<p class="estrellas">★★★★★</p>
+<p class="nota">5/5</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="modal-pelicula" class="modal">
+<div class="modal-contenido">
+<button id="cerrar-modal" class="cerrar-modal">✕</button>
+<img id="modal-imagen" src="" alt="">
+<div class="modal-info">
+<h2 id="modal-titulo"></h2>
+<p id="modal-datos"></p>
+<p id="modal-estrellas"></p>
+<p id="modal-descripcion"></p>
+</div>
+</div>
+</div>
+<script src="../js/script.js"></script>
+</body>
+</html>
