@@ -18,7 +18,27 @@ let nombresSeries = [
     "Rebelde way",
     "Friends",
     "iCarly",
-    "Alexa&Katie"
+    "Alexa&Katie",
+    "Bridgerton",
+    "The Boys",
+    "Prison Break",
+    "The Last of Us",
+    "The 100",
+    "Merlina",
+    "The Walking Dead",
+    "The Vampire Diaries",
+    "Breaking Bad",
+    "Euphoria",
+    "Élite",
+    "The Big Bang Theory",
+    "Cómo conocí a tu madre",
+    "Los simuladores",
+    "Floricienta",
+    "Hannah Montana",
+    "Loki",
+    "WandaVision",
+    "You",
+    "Nuestro planeta"
 ];
 
 function esSerie(tarjeta) {
@@ -443,7 +463,232 @@ function obtenerDescripcion(titulo) {
             "El capitán Jack Sparrow se embarca en aventuras llenas de tesoros, barcos y misterios mientras intenta escapar de sus enemigos.",
 
         "101 dálmatas":
-            "Pongo y Perdita intentan rescatar a sus cachorros cuando Cruella de Vil planea utilizarlos para fabricar un abrigo."
+            "Pongo y Perdita intentan rescatar a sus cachorros cuando Cruella de Vil planea utilizarlos para fabricar un abrigo.",
+
+        "Diario de una pasión":
+            "Noah y Allie se enamoran durante un verano, pero las diferencias sociales los separan y el destino vuelve a cruzarlos años después.",
+
+        "Bajo la misma estrella":
+            "Hazel y Gus, dos jóvenes que enfrentan el cáncer, se conocen en un grupo de apoyo y viven una historia de amor inolvidable.",
+
+        "Orgullo y prejuicio":
+            "Elizabeth Bennet y el reservado señor Darcy deben superar sus prejuicios y el orgullo para reconocer lo que sienten.",
+
+        "10 cosas que odio de ti":
+            "Para poder salir con la chica que le gusta, un alumno paga al chico más temido del colegio para que invite a salir a su difícil hermana.",
+
+        "A dos metros de ti":
+            "Dos adolescentes con fibrosis quística deben mantener la distancia por su salud, pero el amor los hace desafiar las reglas.",
+
+        "Culpa mía":
+            "Noah debe mudarse a la mansión de su padrastro y allí conoce a Nick, un joven rebelde con quien comienza una relación prohibida.",
+
+        "Titanic":
+            "Jack y Rose se enamoran a bordo del famoso transatlántico mientras el barco avanza hacia su trágico destino.",
+
+        "Bridgerton":
+            "En la alta sociedad londinense del siglo XIX, la familia Bridgerton busca amor y reputación entre bailes, secretos y rumores.",
+
+        "John Wick":
+            "Un exasesino a sueldo vuelve a la acción para vengarse de quienes le arrebataron lo que más quería.",
+
+        "Mad Max: Furia en el camino":
+            "En un desierto postapocalíptico, Furiosa y Max huyen de un tirano en una persecución llena de vehículos extremos.",
+
+        "Top Gun: Maverick":
+            "Tras treinta años de servicio, Maverick vuelve a entrenar a una nueva generación de pilotos para una misión casi imposible.",
+
+        "Gladiador":
+            "Un general romano traicionado se convierte en gladiador y busca venganza contra el emperador que destruyó a su familia.",
+
+        "The Boys":
+            "Un grupo de vigilantes se enfrenta a superhéroes corruptos que abusan de su poder y de su fama.",
+
+        "Prison Break":
+            "Michael Scofield se hace encarcelar a propósito para planear la fuga de su hermano, condenado injustamente a muerte.",
+
+        "Avatar":
+            "Un ex marine viaja a Pandora, donde se une al pueblo Na'vi y debe elegir de qué lado está en un conflicto por el planeta.",
+
+        "Matrix":
+            "Un programador descubre que el mundo que conoce es una simulación y se une a la rebelión contra las máquinas.",
+
+        "El origen":
+            "Un ladrón especializado en robar secretos a través de los sueños recibe una misión: implantar una idea en la mente de alguien.",
+
+        "Dune":
+            "Paul Atreides viaja al peligroso planeta desértico Arrakis, clave para el futuro de la galaxia, y enfrenta su destino.",
+
+        "Volver al futuro":
+            "Marty McFly viaja al pasado en una máquina del tiempo y debe asegurarse de que sus padres se enamoren para poder existir.",
+
+        "Los juegos del hambre":
+            "Katniss se ofrece como voluntaria para un torneo mortal televisado y debe sobrevivir para volver con su familia.",
+
+        "The Last of Us":
+            "Joel debe escoltar a la joven Ellie a través de un Estados Unidos devastado por una infección que transformó a la humanidad.",
+
+        "The 100":
+            "Cien jóvenes son enviados desde una nave espacial a una Tierra arrasada por la radiación para ver si puede volver a habitarse.",
+
+        "El conjuro":
+            "Los investigadores paranormales Ed y Lorraine Warren ayudan a una familia atormentada por una presencia oscura en su casa.",
+
+        "It":
+            "Un grupo de chicos se une para enfrentar a Pennywise, una criatura que aterroriza a su pueblo tomando forma de payaso.",
+
+        "Scream":
+            "Un asesino enmascarado acecha a un grupo de adolescentes y las reglas de las películas de terror se vuelven una cuestión de vida o muerte.",
+
+        "La monja":
+            "Un sacerdote y una novicia investigan la muerte de una monja en una abadía de Rumania y descubren una fuerza maligna.",
+
+        "Sonríe":
+            "Una psicóloga comienza a ser acosada por una presencia sobrenatural luego de presenciar un hecho traumático.",
+
+        "Five Nights at Freddy's":
+            "Un guardia nocturno descubre que los animatrónicos de una pizzería abandonada cobran vida cuando cae la noche.",
+
+        "Merlina":
+            "Merlina Addams ingresa a una academia para jóvenes marginados donde debe resolver una serie de crímenes misteriosos.",
+
+        "The Walking Dead":
+            "Un grupo de sobrevivientes lucha por mantenerse con vida en un mundo invadido por muertos vivientes.",
+
+        "The Vampire Diaries":
+            "Elena se enamora de Stefan, un vampiro, y queda en medio de secretos y rivalidades sobrenaturales en su pueblo.",
+
+        "Joker":
+            "Arthur Fleck, un hombre rechazado por la sociedad, comienza un descenso a la locura que lo convierte en un criminal icónico.",
+
+        "Oppenheimer":
+            "La historia del físico J. Robert Oppenheimer y su papel clave en el desarrollo de la bomba atómica durante la Segunda Guerra Mundial.",
+
+        "Forrest Gump":
+            "Un hombre de gran corazón y mente simple vive sin proponérselo los hechos más importantes de la historia de Estados Unidos.",
+
+        "Argentina, 1985":
+            "Un joven equipo de fiscales enfrenta el juicio a las juntas militares argentinas, en un camino lleno de presiones y amenazas.",
+
+        "Breaking Bad":
+            "Un profesor de química diagnosticado con cáncer se asocia con un ex alumno para fabricar drogas y asegurar el futuro de su familia.",
+
+        "Euphoria":
+            "Un grupo de adolescentes enfrenta el amor, las adicciones, la identidad y la presión de crecer en el mundo actual.",
+
+        "Élite":
+            "Tres estudiantes de barrio humilde llegan a un colegio de élite y chocan con sus compañeros hasta que un asesinato lo cambia todo.",
+
+        "Superbad":
+            "Dos mejores amigos intentan vivir una última gran noche de fiesta antes de terminar el colegio y separarse.",
+
+        "¿Qué pasó ayer?":
+            "Tres amigos despiertan tras una despedida de soltero en Las Vegas sin recordar nada y con el novio desaparecido.",
+
+        "Chicas pesadas":
+            "Cady, que creció en África, llega a un colegio de Estados Unidos y se mete en el mundo de las populares.",
+
+        "Barbie":
+            "Barbie vive en un mundo perfecto, pero comienza a cuestionarse todo y viaja al mundo real en busca de respuestas.",
+
+        "The Big Bang Theory":
+            "Un grupo de amigos científicos y su vecina Penny viven situaciones graciosas entre ciencia, cómics y la vida cotidiana.",
+
+        "Cómo conocí a tu madre":
+            "Ted cuenta a sus hijos cómo, junto a sus amigos, vivió todo lo que lo llevó a conocer a su madre.",
+
+        "Los simuladores":
+            "Cuatro especialistas ayudan a personas comunes a resolver problemas con elaboradas simulaciones.",
+
+        "Harry Potter y la piedra filosofal":
+            "Harry descubre que es un mago el día que cumple once años y comienza su aventura en el colegio Hogwarts.",
+
+        "Mi pobre angelito":
+            "Kevin queda solo en su casa por error en Navidad y debe defenderla de dos ladrones con trampas muy ingeniosas.",
+
+        "Shrek":
+            "Un ogro gruñón emprende una misión para rescatar a una princesa, con la ayuda de un burro muy hablador.",
+
+        "Cómo entrenar a tu dragón":
+            "Hipo, un joven vikingo, se hace amigo de un dragón herido y cambia para siempre la relación entre su pueblo y estas criaturas.",
+
+        "Floricienta":
+            "Flor, una joven con buen corazón, empieza a trabajar como niñera y vive aventuras, canciones y un gran romance.",
+
+        "Hannah Montana":
+            "Miley lleva una doble vida: es una chica común en el colegio y una estrella del pop cuando se pone su peluca.",
+
+        "Avengers: Endgame":
+            "Los Vengadores se reúnen una vez más para revertir el chasquido de Thanos y devolver el equilibrio al universo.",
+
+        "Avengers: Infinity War":
+            "Los héroes se unen para detener a Thanos, que busca las Gemas del Infinito para eliminar a la mitad de la vida del universo.",
+
+        "Iron Man":
+            "Tony Stark, un millonario inventor, construye una armadura para escapar del cautiverio y se convierte en un superhéroe.",
+
+        "Black Panther":
+            "T'Challa regresa a Wakanda para asumir el trono y debe defender a su nación de un peligroso rival.",
+
+        "Guardianes de la Galaxia":
+            "Un grupo de inadaptados se une para proteger un poderoso orbe que podría destruir la galaxia.",
+
+        "Deadpool y Wolverine":
+            "Deadpool une fuerzas con Wolverine en una misión descabellada que pondrá en riesgo el multiverso.",
+
+        "Loki":
+            "Tras escapar con el Tesseract, Loki es capturado por una agencia que vigila el tiempo y debe ayudar a arreglar la línea temporal.",
+
+        "WandaVision":
+            "Wanda y Visión viven una vida perfecta en un pueblo con aire de comedia clásica, pero algo extraño se esconde detrás.",
+
+        "Intensamente":
+            "Las emociones de Riley —Alegría, Tristeza, Furia, Miedo y Desagrado— la guían cuando su vida cambia con una mudanza.",
+
+        "Encanto":
+            "Mirabel, la única de su familia sin un don mágico, intenta salvar la casa y a los suyos de una amenaza.",
+
+        "Soul":
+            "Un profesor de música queda atrapado entre mundos y debe encontrar el verdadero sentido de la vida.",
+
+        "Hércules":
+            "Hércules, hijo de Zeus criado como mortal, debe demostrar que es un verdadero héroe para recuperar su lugar en el Olimpo.",
+
+        "Monsters, Inc.":
+            "Sulley y Mike trabajan asustando niños, pero todo cambia el día que una pequeña llega al mundo de los monstruos.",
+
+        "Mi villano favorito":
+            "Gru, un villano que planea robar la Luna, ve su vida transformada al adoptar a tres niñas.",
+
+        "Seven":
+            "Dos detectives persiguen a un asesino que basa sus crímenes en los siete pecados capitales.",
+
+        "Shutter Island":
+            "Un agente federal investiga la desaparición de una paciente en un hospital psiquiátrico y empieza a dudar de todo.",
+
+        "Perdida":
+            "Cuando Amy desaparece el día de su aniversario, su esposo se convierte en el principal sospechoso.",
+
+        "El secreto de sus ojos":
+            "Un ex empleado judicial regresa a un viejo caso de homicidio que nunca pudo olvidar y a un amor que quedó sin decir.",
+
+        "Nueve reinas":
+            "Dos estafadores se asocian por un día para vender unas estampillas falsificadas y todo se complica en Buenos Aires.",
+
+        "You":
+            "Joe se obsesiona con las personas que le atraen y llega a extremos peligrosos para estar cerca de ellas.",
+
+        "Nuestro planeta":
+            "Una serie que recorre los paisajes y especies de todo el mundo y muestra cómo el cambio climático afecta a la naturaleza.",
+
+        "Mi maestro el pulpo":
+            "Un cineasta forma una relación única con un pulpo salvaje durante un año en el mar de Sudáfrica.",
+
+        "Free Solo":
+            "Alex Honnold intenta escalar sin cuerdas ni protección la imponente pared El Capitán, en Yosemite.",
+
+        "Diego Maradona":
+            "Un recorrido por la vida del famoso futbolista, de su paso por Nápoles a su consagración y sus momentos más difíciles."
     };
 
     return descripciones[titulo.trim()] || "Una historia para disfrutar y descubrir.";
